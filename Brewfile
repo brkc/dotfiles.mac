@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+brew "git"
 brew "mas"
 cask "1password"
 cask "1password-cli"
