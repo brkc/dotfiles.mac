@@ -1,0 +1,11 @@
+# Link dotfiles
+files=$(find . -maxdepth 1 -name '.*' -not -name . \
+               -not -name .git)
+for file in $files; do
+  file=$(basename $file)
+  if [[ -e ~/$file ]]; then
+    echo skipping $file
+    continue
+  fi
+  ln -s $PWD/$file ~/$file
+done
