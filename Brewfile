@@ -15,6 +15,7 @@ cask "obsidian"
 cask "rectangle"
 cask "runelite"
 cask "utm"
+cask "vagrant"
 cask "visual-studio-code"
 mas "1Password for Safari", id: 1569813296
 mas "AdGuard for Safari", id: 1440147259
