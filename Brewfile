@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 brew "bash"
+brew "bash-completion"
 brew "git"
 brew "mas"
 brew "minikube"
