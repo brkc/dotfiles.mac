@@ -7,3 +7,4 @@
 
 [rebase]
     autosquash = true
+    autostash = true
