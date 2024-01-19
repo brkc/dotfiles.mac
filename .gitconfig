@@ -4,3 +4,6 @@
 
 [color]
 	ui = auto
+
+[rebase]
+    autosquash = true
