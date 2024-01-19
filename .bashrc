@@ -1,3 +1,6 @@
+PS1="\w\$ "
+export EDITOR=vi
+
 # homebrew
 function brew {
     if [[ ! -v HOMEBREW_REPOSITORY ]]; then
@@ -5,6 +8,3 @@ function brew {
     fi
     command brew "$@"
 }
-
-PS1="\w\$ "
-export EDITOR=vi
