@@ -1,2 +1,3 @@
-scripts/homebrew
-scripts/link
+#!/usr/bin/env bash
+./scripts/homebrew
+./scripts/link
