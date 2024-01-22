@@ -5,6 +5,9 @@
 [color]
 	ui = auto
 
+[mergetool]
+    keepBackup = false
+
 [rebase]
     autosquash = true
     autostash = true
