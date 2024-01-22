@@ -1,6 +1,6 @@
 PS1="\w\$ "
 export EDITOR=vi
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
-source "$(brew --prefix)/etc/profile.d/bash_completion.sh"
-eval "$(minikube completion bash)"
+source ~/.brew-shellenv
+source ~/.minikube-completion
+source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"

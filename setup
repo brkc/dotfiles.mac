@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 ./scripts/homebrew
+./scripts/brew-shellenv
+./scripts/minikube-completion
 ./scripts/link
